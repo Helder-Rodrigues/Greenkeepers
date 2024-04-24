@@ -711,3 +711,107 @@ Received Import Request.
 Start importing Assets/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat using Guid(93caadf4359ae8143aad35b3145d31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb7486dd8de353b8f9f6da8e01e41b7') in 0.176076 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 269.100182 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Bush_01.prefab
+  artifactKey: Guid(3cdafb3c2f54d434894928d72d282874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Bush_01.prefab using Guid(3cdafb3c2f54d434894928d72d282874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55409ed042c86755908c1833ba78d055') in 0.048851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Tree_04.prefab
+  artifactKey: Guid(f0c16f0ea935ea64297ca1d4d55d9746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Tree_04.prefab using Guid(f0c16f0ea935ea64297ca1d4d55d9746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b390b909bd2202241204c71c50f56a') in 0.018137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Tree_01.prefab
+  artifactKey: Guid(88f2fd29f58b9734683512546acec310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Tree_01.prefab using Guid(88f2fd29f58b9734683512546acec310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f25a5464a0aa03a26b6b6efa1a7e8d') in 0.016556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Ground_01.prefab
+  artifactKey: Guid(ebee340de387f334f9ac44e044abd8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Ground_01.prefab using Guid(ebee340de387f334f9ac44e044abd8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8249f2fa00eeaeb5afa2cce8ebf552c1') in 0.015159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Ground_03.prefab
+  artifactKey: Guid(3f9b178ccd3b86f4ebbfc1f5a2815e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Ground_03.prefab using Guid(3f9b178ccd3b86f4ebbfc1f5a2815e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cea007b9bb3b9dfc2d2ff60f7422944') in 0.013899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Flowers_01.prefab
+  artifactKey: Guid(ac8efb728f1fb9b4092c4df591c827ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Flowers_01.prefab using Guid(ac8efb728f1fb9b4092c4df591c827ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3fa923ef97849935cb504ce74120901') in 0.016146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Stump_01.prefab
+  artifactKey: Guid(eebb56c82efbd8d4bb0eb6bd925a0e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Stump_01.prefab using Guid(eebb56c82efbd8d4bb0eb6bd925a0e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54860b8fbf15a2e81d4e14b03816cb92') in 0.013834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Tree_02.prefab
+  artifactKey: Guid(e289bf5debb17f6459818c207d781953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Tree_02.prefab using Guid(e289bf5debb17f6459818c207d781953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce213dc07aa83c0ab127e88a8f46a2c') in 0.014911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Rock_01.prefab
+  artifactKey: Guid(c6308cb7062fac34e8e50600086b12a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Rock_01.prefab using Guid(c6308cb7062fac34e8e50600086b12a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8e66d66ed49e6cc5f75ede164f22fb') in 0.015025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Tree_03.prefab
+  artifactKey: Guid(c60edd51c065ceb46b345849a03bc106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Tree_03.prefab using Guid(c60edd51c065ceb46b345849a03bc106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf54252ffd76d2e48fdb177571c6e2f') in 0.015477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Tree_05.prefab
+  artifactKey: Guid(60f79905accf3b24fa0114b941f1aac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Tree_05.prefab using Guid(60f79905accf3b24fa0114b941f1aac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f6907e86dda8ba561aea038cbe76ea') in 0.014360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Bush_02.prefab
+  artifactKey: Guid(b71b0f8d2f881c743a85228f3030d1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Bush_02.prefab using Guid(b71b0f8d2f881c743a85228f3030d1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af142b30bb40f69c49386a7f7d9e991') in 0.014943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 1809.297907 seconds.
+  path: Assets/LowPolyWater_Pack/LowPoly Island/textures/textureAmbient_Occlusion.jpg
+  artifactKey: Guid(b9b487cdf5f0a1446986165bc650935d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyWater_Pack/LowPoly Island/textures/textureAmbient_Occlusion.jpg using Guid(b9b487cdf5f0a1446986165bc650935d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e807de9795ea3a915bf160544e0e516') in 0.055722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
