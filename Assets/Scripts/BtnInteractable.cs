@@ -11,7 +11,7 @@ public class BtnInteractable : MonoBehaviour
     [SerializeField] private Transform camTranform;
     [SerializeField] private GameObject cam;
     private bool onGround = true;
-    private Vector3 groundPosition;
+    private Vector3 groundPosition = Vector3.zero;
 
     [SerializeField] private MeshRenderer blackScreen; 
     private const float fadeSpeed = 0.5f;
@@ -22,6 +22,12 @@ public class BtnInteractable : MonoBehaviour
 
     private void Update()
     {
+
+        print("air cam: " + cam.transform.position);
+        print("cam: " + camTranform.position);
+        print("ground: " + groundPosition);
+        print(groundPosition - camTranform.position);
+
         if (btnCanBePressed && BtnCliked)
             StartCoroutine(SwitchCameraView());
     }
@@ -40,13 +46,11 @@ public class BtnInteractable : MonoBehaviour
 
         if (onGround)
         {
+            cam.transform.position += new Vector3(0, 4.5f, -5f);
             groundPosition = camTranform.position;
-            cam.transform.position = new Vector3(camTranform.position.x,
-                                             camTranform.position.y + 4.5f, camTranform.position.z - 5f);
         }
         else
-            //should i remove '+'?
-            cam.transform.position += groundPosition - camTranform.position; 
+            cam.transform.position += groundPosition - camTranform.position + new Vector3(0,-4.5f, 5f);
 
         onGround = !onGround;
 
