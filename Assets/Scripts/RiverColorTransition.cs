@@ -9,14 +9,14 @@ public class RiverColorTransition : MonoBehaviour
     
     private Color startColor = new Color(0.533f, 0.749f, 1f, 1f); // 88BFFF
     private Color endColor = new Color(0.812f, 0.722f, 0.373f, 1f); // CFB85F
-    private Renderer renderer;
+    private Renderer waterRenderer;
     private float transColorPerct;
     private bool IsClean => transColorPerct < 0.4f;
 
     void Start()
     {
-        renderer = GetComponent<Renderer>();
-        StartCoroutine(TransitionColor(30f));
+        waterRenderer = GetComponent<Renderer>();
+        StartCoroutine(TransitionColor(300f));
     }
 
     IEnumerator TransitionColor(float transDurationInSec)
@@ -25,7 +25,7 @@ public class RiverColorTransition : MonoBehaviour
         while (elapsedTime < transDurationInSec)
         {
             transColorPerct = elapsedTime / transDurationInSec;
-            renderer.material.color = Color.Lerp(startColor, endColor, transColorPerct);
+            waterRenderer.material.color = Color.Lerp(startColor, endColor, transColorPerct);
             elapsedTime += Time.deltaTime;
             yield return null;
         }
@@ -36,7 +36,7 @@ public class RiverColorTransition : MonoBehaviour
     {
         if (!IsClean)
         {
-            renderer.material.color = startColor;
+            waterRenderer.material.color = startColor;
             transColorPerct = 0f;
         }
     }
@@ -47,7 +47,7 @@ public class RiverColorTransition : MonoBehaviour
             StartCoroutine(TransitionColor(30f));
     }
 
-    private void FullDirty() => renderer.material.color = endColor;
+    private void FullDirty() => waterRenderer.material.color = endColor;
 
 
     private void Update()
